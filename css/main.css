@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif,'微軟正黑體';	
+}
+.form{
+	height:90vh;
+	width:50vw;
+	position:fixed;
+	margin:auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;	
+}
+.main{
+	position:relative;
+	height:80%;
+	width:100%;
+	text-align:center;
+	border:#CCC solid 0.1rem;	
+}
+.talk{
+	margin:auto;
+	height:95%;
+	width:95%;
+	overflow: auto;
+}
+.right , .left{
+	display:block;	
+}
+.right{
+	text-align:right	
+}
+.left{
+	text-align:left;	
+}
+.me{
+	max-width:80%;
+	right:0;
+	margin-left: 20%;
+	margin-right:0;
+	text-align:right;
+	display:inline-block;
+	background-color:rgba(0,102,204,1);
+	color:#FFF;
+	padding:0.25rem;
+	border-radius:0.25rem;
+	margin:0.25rem;		
+}
+.bot{
+	max-width:80%;
+	left:0;
+	margin-left:0;
+	text-align:left;
+	display:inline-block;
+	background:rgba(222,222,222,1);
+	border-radius:0.25rem;
+	padding:0.25rem;
+	margin:0.25rem;
+	color:#333;
+}
+#str{
+	width:87.5%;
+	max-width:90%;
+	height:10vh;
+	max-height:15vh;
+		
+}
+._tNf{
+	position:relative;	
+}
+._rvh{
+	display:flex;
+	flex-wrap: wrap;
+}
+._tce{
+	flex:1;
+	display:block;
+	min-width:72px;	
+}
+._wvh{
+	width:100%;	
+}
